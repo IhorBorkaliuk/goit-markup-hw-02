@@ -1,0 +1,18 @@
+:root {
+  --primary-text-color: rgba(117, 117, 117, 1);
+  --title-text-color: #212121;
+  --accent-text-color: #2196f3;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-text-color);
+}
+
+.link-nav:hover,
+.link-nav:focus {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  color: var(--title-text-color);
+}
