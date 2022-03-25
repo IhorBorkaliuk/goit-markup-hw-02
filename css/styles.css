@@ -1,5 +1,5 @@
 :root {
-  --primary-text-color: rgba(117, 117, 117, 1);
+  --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-text-color: #2196f3;
 }
@@ -9,10 +9,113 @@ body {
   color: var(--primary-text-color);
 }
 
+.list {
+  list-style-type: none;
+}
+
+.logo-link:hover,
+.logo-link:focus {
+  color: var(--accent-text-color);
+}
+
+.logo-link {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+
 .link-nav:hover,
 .link-nav:focus {
+  color: var(--accent-text-color);
+}
+.link-nav,
+.link-nav {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.17;
   color: var(--title-text-color);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+
+.link-contact:hover,
+.link-contact:focus {
+  color: var(--accent-text-color);
+}
+
+.link-contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--primary-text-color);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  background-color: gray;
+  color: #ffffff;
+}
+
+.list-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+
+.text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+.title-names {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19px;
+  letter-spacing: 0.03em;
+}
+
+.text-description {
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
+
+.address-text {
+  font-size: 14px;
+  line-height: 1.71px;
+  letter-spacing: 0.03em;
+  color: red;
+}
+
+.address-link {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: gray;
 }
