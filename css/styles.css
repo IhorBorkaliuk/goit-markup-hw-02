@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', 'Open Sans', 'Lato', 'Slabo', sans-serif;
   color: var(--primary-text-color);
 }
 
@@ -19,7 +19,7 @@ body {
 }
 
 .logo-link {
-  font-family: 'Raleway';
+  font-family: 'Raleway', 'Oswald', 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -63,7 +63,6 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  background-color: gray;
   color: #ffffff;
 }
 
@@ -109,7 +108,7 @@ body {
   font-size: 14px;
   line-height: 1.71px;
   letter-spacing: 0.03em;
-  color: red;
+  color: #ffffff;
 }
 
 .address-link {
@@ -117,5 +116,23 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  background-color: gray;
+}
+
+.accent,
+.accent-white:hover,
+.accent,
+.accent-white:focus {
+  color: var(--accent-text-color);
+}
+
+.accent-white {
+  color: #ffffff;
+}
+
+footer {
+  background-color: #2f303a;
+}
+
+.background-about {
+  background-color: #2f303a;
 }
