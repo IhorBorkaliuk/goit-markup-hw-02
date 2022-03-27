@@ -170,10 +170,21 @@ button {
   cursor: pointer;
 }
 
+.buttonlist:hover .buttonlist:focus {
+  color: var(--accent-text-color);
+  background-color: var(--bg-color);
+}
+
 .order {
   background-color: var(--accent-text-color);
+  margin: 0 auto;
+  display: block;
 }
 
 .team {
   background-color: var(--bg-color-team);
+}
+
+.buttonall {
+  background-color: #2196f3;
 }
