@@ -170,12 +170,32 @@ button {
   cursor: pointer;
 }
 
-.buttonlist:hover .buttonlist:focus {
-  color: var(--accent-text-color);
-  background-color: var(--bg-color);
+.button-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.button-list:hover {
+  color: var(--just-white-color);
+  background-color: var(--accent-text-color);
 }
 
-.order {
+.button-order:hover {
+  color: var(--title-text-color);
+  background-color: var(--accent-text-color);
+}
+
+.button-order {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--just-white-color);
   background-color: var(--accent-text-color);
   margin: 0 auto;
   display: block;
@@ -186,5 +206,14 @@ button {
 }
 
 .buttonall {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
   background-color: #2196f3;
+}
+
+.buttonall:hover {
+  color: var(--just-white-color);
 }
