@@ -35,6 +35,10 @@ body {
   text-decoration: none;
 }
 
+.no-underline {
+  text-decoration: none;
+}
+
 .link-nav:hover,
 .link-nav:focus {
   color: var(--accent-text-color);
@@ -118,6 +122,7 @@ body {
 }
 
 .address-text {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71px;
   letter-spacing: 0.03em;
